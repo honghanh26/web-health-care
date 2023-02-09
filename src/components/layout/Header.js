@@ -21,7 +21,7 @@ function Header() {
         <div className={`collapse navbar-collapse ${(showMenuMobile ? "show" : "")}`} id="navbarText">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 top-menu">
             <li className="nav-item">
-              <a className="nav-link active ps-0" aria-current="page" href="/">自分の記録</a>
+              <a className={`nav-link ${window.location.pathname === "/record" ? "active" : ""} ps-0`} aria-current="page" href="/record">自分の記録</a>
             </li>
             <li className="nav-item icon-challenge">
               <a className="nav-link ps-0" href="/">チャレンジ</a>
@@ -39,13 +39,13 @@ function Header() {
             </div>
             {showMenu &&
               <div className="list-group sub-menu position-absolute">
-                <a href="/" className="list-group-item list-group-item-action active" aria-current="true">
+                <a href="/record" className={`list-group-item list-group-item-action ${window.location.pathname === "/record" ? "active" : ""}`} aria-current="true">
                   自分の記録
                 </a>
                 <a href="/" className="list-group-item list-group-item-action">体重グラフ</a>
                 <a href="/" className="list-group-item list-group-item-action">目標</a>
                 <a href="/" className="list-group-item list-group-item-action">選択中のコース</a>
-                <a href="/" className="list-group-item list-group-item-action">コラム一覧</a>
+                <a href="/column" className={`list-group-item list-group-item-action ${window.location.pathname === "/column" ? "active" : ""}`}>コラム一覧</a>
                 <a href="/" className="list-group-item list-group-item-action">設定</a>
               </div>
             }

@@ -1,0 +1,54 @@
+.item-menu {
+  background: #2e2e2e;
+  font-style: normal;
+}
+
+.item-menu .title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.11px;
+  color: #ffcc21;
+  width: 200px;
+}
+
+.item-menu .type {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.item-menu .line {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 56px;
+}
+
+.item-meal .desc {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.075px;
+  color: #414141;
+}
+
+.item-meal .list-type {
+  list-style: none;
+  padding: 0;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.06px;
+  color: #ff963c;
+}
+
+.item-meal .list-type li {
+  margin-left: 0.5rem;
+}
+
+.item-meal .list-type li:first-child {
+  margin-left: 0;
+}
+
+.item-meal .list-type li::before {
+  content: "#";
+}

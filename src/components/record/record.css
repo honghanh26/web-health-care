@@ -1,0 +1,185 @@
+.menu-record {
+  border: 24px solid #ffcc21;
+  box-sizing: border-box;
+}
+
+.menu-record:hover {
+  cursor: pointer;
+}
+
+.menu-record-content {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(46, 46, 46, 0.8);
+}
+
+.menu-record-content .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.125px;
+  color: #ffcc21;
+}
+
+.menu-record-content .desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #ff963c;
+  padding: 0.125rem 0.25rem;
+}
+
+.block-body-record,
+.block-exercise {
+  background-color: #414141;
+  padding: 1rem 1.5rem;
+}
+
+.block-body-record .title-body-record,
+.block-exercise .title-exercise {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  color: #fff;
+}
+
+.block-body-record .title-body-record span:first-child,
+.block-exercise .title-exercise span:first-child {
+  width: 96px;
+}
+
+.block-body-record .title-body-record .date,
+.block-exercise .title-exercise .date {
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.11px;
+}
+
+.block-exercise .list-exercise {
+  height: 190px;
+  overflow-y: auto;
+}
+
+.block-exercise .list-exercise::-webkit-scrollbar {
+  width: 6px;
+  background-color: #777;
+  border-radius: 3px;
+}
+
+.block-exercise .list-exercise::-webkit-scrollbar-thumb {
+  background-color: #ffcc21;
+  border-radius: 3px;
+  height: 34px;
+}
+
+.block-exercise .list-exercise::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #777;
+  border-radius: 3px;
+}
+
+.block-exercise .list-exercise .list-group {
+  margin-top: -1px;
+}
+
+.block-exercise .list-exercise .list-group-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffcc21;
+  background-color: transparent;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-top: 1px solid #777;
+  padding: 0.25rem 0.5rem 0.2rem 0;
+}
+
+.block-exercise .list-exercise .list-group-item::before {
+  content: "●";
+  font-weight: 300;
+  font-size: 5px;
+  line-height: 7px;
+  letter-spacing: 0.015px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.block-exercise .list-group-item .title {
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.075px;
+}
+
+.block-exercise .list-group-item .desc {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.075px;
+}
+
+.block-exercise .list-group-item .time {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.09px;
+}
+
+.block-diary > .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.11px;
+  color: #414141;
+}
+
+.block-diary .row {
+  margin-right: -0.25rem;
+  margin-left: -0.25rem;
+}
+
+.block-diary .item-diary {
+  border: 2px solid #707070;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.06px;
+  color: #414141;
+}
+
+.block-diary .item-diary .date {
+  width: 146px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.09px;
+}
+
+.block-filter .btn {
+  color: #FFCC21;
+  border-color: #fff;
+}
+
+.block-filter .btn.active {
+  background: #FFCC21;
+  border-color: #FFCC21;
+  color: #fff;
+}
+
+.chart-body-record .block-line-chart {
+  height: 220px;
+}
